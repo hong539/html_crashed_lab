@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "html-crashed-lab"
+version = "0.1.0"
+description = "html_crashed_lab is a workshop to make a small program to parser html tags with Python or combined any other good programming languages."
+authors = ["hong <yunghunghuang984@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "html_crashed_lab"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
